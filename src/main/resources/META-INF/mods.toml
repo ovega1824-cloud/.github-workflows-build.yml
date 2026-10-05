@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="cuatrovidas"
+version="1.0.0"
+displayName="Cuatro Vidas"
+description='''
+Cada jugador tiene 4 vidas. Al perder todas pasas a modo espectador y no puedes respawnear.
+Los jugadores sueltan un Corazón Dorado al morir en PvP (clic derecho = +1 vida, máximo 6).
+El Corazón con Tuerca abre el menú para configurar todo el mod.
+'''
+
+[[dependencies.cuatrovidas]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.cuatrovidas]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
